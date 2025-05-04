@@ -1,0 +1,49 @@
+.code-block {
+  position: relative;
+}
+
+.code-content {
+  background-color: #020617;
+  padding: 1rem;
+  border-radius: 0 0 0.5rem 0.5rem;
+  overflow-x: auto;
+  max-height: 31.25rem;
+  margin: 0;
+  font-size: 0.875rem;
+}
+
+.code-text {
+  color: #f1f5f9;
+  font-family: monospace;
+  white-space: pre;
+}
+
+.copy-button {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.25rem;
+  width: 2.25rem;
+  border-radius: 0.375rem;
+  background-color: #1e293b;
+  border: none;
+  color: #94a3b8;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.copy-button:hover {
+  background-color: #334155;
+}
+
+.copy-button.copied {
+  color: #10b981;
+}
+
+.icon {
+  height: 1rem;
+  width: 1rem;
+}
